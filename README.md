@@ -1,4 +1,4 @@
-#RPG Battle Game
+RPG Battle Game
 
 A retro-style browser game project built with HTML, TailwindCSS and TypeScript.
 Currently focused on the Home Page — the entry point where players can enter their names before the battle begins.
