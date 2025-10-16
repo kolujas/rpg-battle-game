@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPG Battle Game - Home</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <header class="bg-[var(--primary)] py-4 text-white">
+      <nav class="flex items-center justify-between px-4">
+        <h1 class="hover:translate-y-[2px] inline-block">RPG BATTLE</h1>
+        <ul
+          class="flex flex-col sm:flex-row gap-3 sm:gap-5 justify-end text-end"
+        >
+          <li class="hover:translate-y-[2px] inline-block">Home</li>
+          <li class="hover:translate-y-[2px] inline-block">Play</li>
+          <li class="hover:translate-y-[2px] inline-block">Ladderboard</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main
+      class="main flex justify-center items-center h-screen bg-[url('/background.jpg')] bg-no-repeat bg-cover bg-center [image-rendering:pixelated] [filter:brightness(90%)_contrast(110%)_saturate(105%)]"
+    >
+      <form
+        class="flex flex-col gap-4 m-8 justify-center bg-[var(--primary)] p-6 rounded shadow-[4px_4px_0_var(--text)]"
+        action="#"
+      >
+        <div>
+          <h2 class="py-2 pb-4">Enter the names of the players</h2>
+          <input
+            class="w-full border-2 border-black outline-none p-1 pl-2 rounded bg-white text-sm shadow-[2px_2px_0_var(--text)]"
+            type="text"
+            name=""
+            id=""
+            placeholder="player one name"
+          />
+        </div>
+        <div>
+          <input
+            class="w-full border-2 border-black outline-none p-1 pl-2 rounded bg-white text-sm shadow-[2px_2px_0_var(--text)]"
+            type="text"
+            name=""
+            id=""
+            placeholder="player two name"
+          />
+        </div>
+
+        <div>
+          <button
+            class="border-2 p-1 outline-none bg-[var(--accent)] shadow-[2px_2px_0_var(--text)] px-3 py-1 hover:translate-y-[2px] hover:shadow-none transition-all duration-75 cursor-pointer"
+          >
+            Play
+          </button>
+        </div>
+      </form>
+    </main>
+
+    <footer class="bg-[var(--primary)]">
+      <div>
+        <p class="text-sm text-center p-4">
+          Todos los derechos reservados &copy;
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #ecebe4;
+  --accent: #4ec67d;
+  --primary: #9c6b5a;
+  --text: #1e1e1e;
+  --font: "Press Start 2P", system-ui;
+}
+
+body {
+  font-family: var(--font);
+}
